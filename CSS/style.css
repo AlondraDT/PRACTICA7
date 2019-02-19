@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(155, 138, 165);
+}
+div
+{
+    width: 500px;
+    height: 220px;
+    border: 1px solid #999999;
+    background-color: aquamarine;
+    color: #848582;
+    border-radius: 15px 0px 35px 0px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 10px 10px 20px #000000;
+}
+img
+{
+    height: 80px;
+    width: 80px;
+}
+ul
+{
+    list-style: none;
+    font-size: 24px;
+}
+ul li
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li a
+{
+    display: block;
+    height: 40px;
+    width: 200px;
+    background: goldenrod;
+    border-left: 10px solid #aed56a;
+    border-right: 10px solid #aed56a;
+    padding-left: 10px;
+    color: teal;
+}
+ul li a:hover
+{
+    margin-left: 10px;
+    box-shadow: 10px 10px 20px yellow;
+    transform: rotate(-4deg);
+}
+td
+{
+    vertical-align: top;
+}
+/* Clases en CSS*/
+.encabezado
+{
+    /*height: 100px;*/
+    background-color: darkslategrey;
+    border-radius: 0px;
+    width: 1024px;
+    background-image:url("/Img/banner.jpg");
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.piePagina
+{
+    height: 150px;
+    background-color: darkslategrey;
+    border-radius: 0px;
+    width: 1024px;
+}
+.piePagina p
+{
+    color: darkorange;
+}
+.piePagina h2
+{
+    color: greenyellow;
+}
